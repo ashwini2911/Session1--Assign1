@@ -1,0 +1,40 @@
+Explain the following terms in detail:
+1. Various sources of Big Data
+2. 3 V's of Big Data
+3. Horizontal Scaling and Vertical Scaling
+4. Need and Working of Hadoop
+
+
+1. Various sources of data
+a. Stock Exchange
+b. Facebook
+c. Internet Archive
+d. Twitter
+e. Bank
+f. Shopping Complex
+g. Various online sources
+
+2. 3 V's of BigData
+a. Volume-data size
+b. Velocity-speed of change
+c. Variety-data sources
+
+3. Horizontal Scaling and Vertical Scaling
+a. Horizontal Scaling- It is scaling up the system to increase the configuration of a single system like RAM,Disk space to process he BigData. But it is complx and time consuming.
+b. Vertical Scaling- It means to scale the system out to use multiple machines and their configuration to distribute the load and to process the bigdata.
+
+4. Need and Working of Hadoop
+Scaling out is the solution to process bigdata but this solution comes with some challenges like-
+a. It should be able to handle structured and unstructured data.
+b. to process huge dataset on large clusters of machine.
+c. To manage nodes failure.
+d. During analysis take result from different machines and assesmble it at one place.
+This all challenges lead to development of a new system which takes care of these challenges called HADOOP.
+Working of Hadoop-
+Hadoop framework is incorporated with two things-
+a. HDFS
+b. MAap Reduce
+a. HDFS- hdfs is Hadoop Distributed File System used to store and manage the large volume of data in Hadoop.
+b. Map Reduce- Map Reduce is a combination of two functions-
+      Map- Map is a functional code which rotates on multiple connected nodes and executes/processes the data stored in their disk.
+      Reduce- Reduce function collects the result and assesmble it to the server node.
